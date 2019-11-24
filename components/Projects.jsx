@@ -9,18 +9,17 @@ export default class Projects extends Component {
 
   render() {
     const { project } = this.props;
+    const img = project.img;
     return (
       <>
         <div className="container">
-            <div className="projects-cntnr">
-              <Link href="/p/[id]" as={`/p/${project.id}`}>
-                <a>
-                  <h3>
-                    {project.name}
-                  </h3>
-                </a>
-              </Link>
-            </div>
+          <Link href="/p/[id]" as={`/p/${project.id}`}>
+            <a>
+              <h3>
+                {project.name}
+              </h3>
+            </a>
+          </Link>
         </div>
         <style jsx>{`
           div {
@@ -28,12 +27,12 @@ export default class Projects extends Component {
             align-items: center;
           }
           .container {
-            align-items: center;
-            justify-content: center;
+            align-items: flex-end;
             width: 45%;
             height: 200px;
-            text-align: center;
             margin: 10px 10px;
+            background: url(${img});
+            background-position: center;
           }
           .container:nth-of-type(1) {
             background-color: lightblue;
@@ -49,6 +48,7 @@ export default class Projects extends Component {
           }
           .container:nth-of-type(5) {
             background-color: pink;
+            background-position: 15% 200%;
           }
           .container:nth-of-type(6) {
             background-color: coral;
@@ -58,6 +58,10 @@ export default class Projects extends Component {
           }
           a {
             text-transform: uppercase;
+          }
+          h3 {
+            margin: 0 10px;
+            color: white;
           }
           @media screen and (max-width: 420px) {
             .container {

@@ -16,9 +16,12 @@ export default function Footer() {
         <a href="https://keybase.io/milcahhalili">
           <img src="https://i.imgur.com/LCKXT37.png" />
         </a>
+        <a href="https://milcahcenteno.com">
+          <img src="https://i.imgur.com/evazxAj.png" />
+        </a>
       </nav>
       <p className="built-with">
-        I built this site with Next.js, React.js, JSON, Zeit, and 🖤
+        I built this site with Next.js, React.js, JSON, Zeit, Azure, and 🖤
       </p>
       <style jsx>{`
         section {

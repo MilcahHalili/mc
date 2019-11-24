@@ -25,7 +25,7 @@ export default function About() {
               and easeful online experiences.
             </p>
             <p>
-              When I'm not helping others solve
+              When I'm not helping humans solve
               <br />
               challenging problems, I write
               <br />
