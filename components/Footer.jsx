@@ -13,9 +13,6 @@ export default function Footer() {
         <a href="https://www.linkedin.com/in/milcah-halili/">
           <img src="https://i.imgur.com/kmInX59.png" />
         </a>
-        <a href="https://keybase.io/milcahhalili">
-          <img src="https://i.imgur.com/LCKXT37.png" />
-        </a>
         <a href="https://milcahcenteno.com">
           <img src="https://i.imgur.com/evazxAj.png" />
         </a>
