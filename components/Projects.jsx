@@ -12,15 +12,15 @@ export default class Projects extends Component {
     const img = project.img;
     return (
       <>
-        <div className="container">
-          <Link href="/p/[id]" as={`/p/${project.id}`}>
-            <a>
-              <h3>
-                {project.name}
-              </h3>
-            </a>
-          </Link>
-        </div>
+        <Link href="/p/[id]" as={`/p/${project.id}`}>
+          <div className="container">
+              <a>
+                <h3>
+                  {project.name}
+                </h3>
+              </a>
+          </div>
+        </Link>
         <style jsx>{`
           div {
             display: flex;

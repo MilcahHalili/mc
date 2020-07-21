@@ -13,9 +13,6 @@ export default function Footer() {
         <a href="https://www.linkedin.com/in/milcah-halili/">
           <img src="https://i.imgur.com/kmInX59.png" />
         </a>
-        <a href="https://milcahcenteno.com">
-          <img src="https://i.imgur.com/evazxAj.png" />
-        </a>
       </nav>
       <p className="built-with">
         I built this site with Next.js, React.js, JSON, Zeit, Azure, and 🖤

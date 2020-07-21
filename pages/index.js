@@ -35,6 +35,7 @@ export default class Index extends Component {
         </div>
         <style jsx>{`
           div {
+            cursor: pointer;
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
